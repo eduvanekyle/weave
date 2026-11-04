@@ -9,6 +9,9 @@ import { UuidGenerator } from './pages/UuidGenerator'
 import { UnixTimestampConverter } from './pages/UnixTimestampConverter'
 import { TextJsonDiff } from './pages/TextJsonDiff'
 import { Sha256HashGenerator } from './pages/Sha256HashGenerator'
+import { PasswordGenerator } from './pages/PasswordGenerator'
+import { LoremIpsumGenerator } from './pages/LoremIpsumGenerator'
+import { QrCodeGenerator } from './pages/QrCodeGenerator'
 import { Home } from './pages/Home'
 import { ImageCompressor } from './pages/ImageCompressor'
 import { ImageConverter } from './pages/ImageConverter'
@@ -50,6 +53,9 @@ function App() {
           <Route path="/developer-tools/unix-timestamp-converter" element={<UnixTimestampConverter />} />
           <Route path="/developer-tools/text-json-diff" element={<TextJsonDiff />} />
           <Route path="/developer-tools/sha256-hash-generator" element={<Sha256HashGenerator />} />
+          <Route path="/developer-tools/password-generator" element={<PasswordGenerator />} />
+          <Route path="/developer-tools/lorem-ipsum-generator" element={<LoremIpsumGenerator />} />
+          <Route path="/developer-tools/qr-code-generator" element={<QrCodeGenerator />} />
           <Route path="/excel-tools/converter" element={<ExcelConverter />} />
           <Route path="/excel-tools/merge" element={<MergeExcel />} />
           <Route path="/excel-tools/smart-merge" element={<SmartMergeExcel />} />

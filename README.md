@@ -32,6 +32,9 @@ A lightweight, privacy-friendly file utility web app for reshaping and transform
 - **Unix Timestamp Converter:** Convert Unix timestamps to local time and UTC, or convert date and time values to Unix timestamps using local or UTC interpretation.
 - **Text / JSON Diff:** Compare text or JSON snippets line by line.
 - **SHA-256 Hash Generator:** Hash text locally using the Web Crypto API.
+- **Password / Random String Generator:** Create secure random strings with `crypto.getRandomValues`, with length and character options.
+- **Lorem Ipsum Generator:** Generate placeholder paragraphs, sentences, or words.
+- **QR Code Generator:** Turn text or a link into a downloadable PNG QR code.
 
 All processing happens client-side using the Canvas API, [pdf-lib](https://github.com/Hopding/pdf-lib), [pdf.js](https://github.com/mozilla/pdf.js), and [SheetJS](https://github.com/SheetJS/sheetjs), so your files never leave your device.
 

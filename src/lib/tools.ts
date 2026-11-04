@@ -133,4 +133,25 @@ export const tools: ToolMeta[] = [
         category: 'developer',
         path: '/developer-tools/sha256-hash-generator',
     },
+    {
+        slug: 'password-generator',
+        name: 'Password / Random String Generator',
+        description: 'Generate secure random passwords and strings.',
+        category: 'developer',
+        path: '/developer-tools/password-generator',
+    },
+    {
+        slug: 'lorem-ipsum-generator',
+        name: 'Lorem Ipsum Generator',
+        description: 'Generate placeholder paragraphs, sentences, or words.',
+        category: 'developer',
+        path: '/developer-tools/lorem-ipsum-generator',
+    },
+    {
+        slug: 'qr-code-generator',
+        name: 'QR Code Generator',
+        description: 'Turn text or a link into a downloadable QR code.',
+        category: 'developer',
+        path: '/developer-tools/qr-code-generator',
+    },
 ]

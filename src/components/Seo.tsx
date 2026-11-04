@@ -44,6 +44,18 @@ const SEO_BY_PATH: Record<string, { title: string; description: string }> = {
         title: 'SHA-256 Hash Generator | Weave',
         description: 'Generate SHA-256 hashes from text locally in your browser.',
     },
+    '/developer-tools/password-generator': {
+        title: 'Password & Random String Generator | Weave',
+        description: 'Generate secure random passwords and strings locally in your browser.',
+    },
+    '/developer-tools/lorem-ipsum-generator': {
+        title: 'Lorem Ipsum Generator | Weave',
+        description: 'Generate lorem ipsum paragraphs, sentences, or words in your browser.',
+    },
+    '/developer-tools/qr-code-generator': {
+        title: 'QR Code Generator | Weave',
+        description: 'Create and download QR codes from text or links privately in your browser.',
+    },
     '/excel-tools/converter': {
         title: 'Convert Excel to JSON, CSV, XLS, or XLSX | Weave',
         description: 'Convert XLSX, XLS, and CSV spreadsheets to Excel formats, CSV, or JSON without uploading files.',

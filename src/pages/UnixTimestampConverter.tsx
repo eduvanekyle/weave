@@ -106,7 +106,7 @@ export function UnixTimestampConverter() {
                         <input
                             id="unix-input"
                             type="number"
-                            className="min-w-0 flex-1 rounded-md border border-[var(--color-border-strong)] bg-[var(--color-bg)] px-3 py-2.5 font-mono text-sm text-[var(--color-text)]"
+                            className="min-w-0 flex-1 rounded-md border border-[var(--color-border-strong)] bg-[var(--color-input)] px-3 py-2.5 font-mono text-sm text-[var(--color-text)]"
                             value={timestampInput}
                             onChange={(event) => setTimestampInput(event.target.value)}
                             placeholder="e.g. 1735689600"
@@ -143,7 +143,7 @@ export function UnixTimestampConverter() {
                         id="datetime-input"
                         type="datetime-local"
                         step="1"
-                        className="w-full rounded-md border border-[var(--color-border-strong)] bg-[var(--color-bg)] px-3 py-2.5 text-sm text-[var(--color-text)]"
+                        className="w-full rounded-md border border-[var(--color-border-strong)] bg-[var(--color-input)] px-3 py-2.5 text-sm text-[var(--color-text)]"
                         value={dateTimeInput}
                         onChange={(event) => setDateTimeInput(event.target.value)}
                     />

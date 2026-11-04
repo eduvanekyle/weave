@@ -25,7 +25,7 @@ export function UuidGenerator() {
             />
             <div className="flex flex-col gap-3 sm:flex-row">
                 <input
-                    className="min-w-0 flex-1 rounded-md border border-[var(--color-border-strong)] bg-[var(--color-bg)] px-3 py-2 font-mono text-sm text-[var(--color-text)]"
+                    className="min-w-0 flex-1 rounded-md border border-[var(--color-border-strong)] bg-[var(--color-input)] px-3 py-2 font-mono text-sm text-[var(--color-text)]"
                     value={uuid}
                     readOnly
                     aria-label="Generated UUID"

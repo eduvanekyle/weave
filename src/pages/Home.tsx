@@ -1,4 +1,4 @@
-import { ArrowDownUp, Braces, Clock3, FileJson, FileSpreadsheet, FileStack, Files, Hash, ImageIcon, Images, PenLine, Scissors, Shrink, Wand2, Workflow } from 'lucide-react'
+import { ArrowDownUp, Braces, Clock3, FileJson, FileSpreadsheet, FileStack, Files, Hash, ImageIcon, Images, KeyRound, PenLine, QrCode, Scissors, Shrink, TextQuote, Wand2, Workflow } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PrimaryButton } from '../components/PrimaryButton'
 import { SecondaryButton } from '../components/SecondaryButton'
@@ -24,6 +24,9 @@ const ICONS: Record<string, React.ReactNode> = {
     'unix-timestamp-converter': <Clock3 size={18} aria-hidden="true" />,
     'text-json-diff': <ArrowDownUp size={18} aria-hidden="true" />,
     'sha256-hash-generator': <Hash size={18} aria-hidden="true" />,
+    'password-generator': <KeyRound size={18} aria-hidden="true" />,
+    'lorem-ipsum-generator': <TextQuote size={18} aria-hidden="true" />,
+    'qr-code-generator': <QrCode size={18} aria-hidden="true" />,
 }
 
 export function Home() {

@@ -25,6 +25,7 @@
   --color-bg: #f7f7f8;
   --color-surface: #ffffff;
   --color-surface-hover: #fbfbfc;
+  --color-input: #ffffff;
   --color-border: #e3e3e6;
   --color-border-strong: #cfcfd4;
   --color-text: #1a1a1e;
@@ -38,6 +39,7 @@
   --color-bg: #101114;
   --color-surface: #17181c;
   --color-surface-hover: #1d1e23;
+  --color-input: #202127;
   --color-border: #2a2b31;
   --color-border-strong: #3a3b42;
   --color-text: #eaeaec;
