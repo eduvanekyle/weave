@@ -1,4 +1,4 @@
-export const MAX_JSON_FILE_SIZE = 300 * 1024 * 1024
+export const MAX_JSON_FILE_SIZE = 30 * 1024 * 1024
 
 type JsonValue = null | boolean | number | string | JsonValue[] | { [key: string]: JsonValue }
 
@@ -29,7 +29,7 @@ export function getJsonParseError(error: unknown): string {
 
 export async function convertJsonToCsv(file: File): Promise<Blob> {
     if (file.size > MAX_JSON_FILE_SIZE) {
-        throw new Error('JSON files must be 300 MB or smaller.')
+        throw new Error('JSON files must be 30 MB or smaller.')
     }
 
     const raw = (await file.text()).replace(/^\uFEFF/, '').trim()

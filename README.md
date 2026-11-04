@@ -23,7 +23,7 @@ A lightweight, privacy-friendly file utility web app for reshaping and transform
 - **Smart Merge Excel:** Merge spreadsheets by matching column headers instead of position, so files with reordered or mismatched columns still align correctly. New headers are added automatically, and a "Source File" column tracks which file each row came from.
 - **Split Excel:** Turn every visible sheet in a workbook into its own file, skipping hidden sheets.
 - **Unpivot Excel:** Turn selected spreadsheet columns into identifier, attribute, and value rows, with an option to skip null values.
-- **JSON to CSV:** Convert JSON records into a CSV file, with a 300 MB limit.
+- **JSON to CSV:** Convert JSON records into a CSV file, with a 30 MB limit.
 
 ### Developer Tools
 

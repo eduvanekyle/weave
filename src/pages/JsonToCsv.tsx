@@ -25,7 +25,7 @@ export function JsonToCsv() {
         const selected = files[0]
         if (!selected) return
         if (selected.size > MAX_JSON_FILE_SIZE) {
-            setError('This file is too large. JSON files must be 300 MB or smaller.')
+            setError('This file is too large. JSON files must be 30 MB or smaller.')
             return
         }
 
@@ -78,7 +78,7 @@ export function JsonToCsv() {
             {!file && (
                 <FileDropzone
                     accept=".json,application/json,text/plain"
-                    formatsLabel="JSON • Max size: 300 MB"
+                    formatsLabel="JSON • Max size: 30 MB"
                     onFiles={handleFiles}
                     error={error}
                 />
