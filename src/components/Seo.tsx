@@ -20,6 +20,30 @@ const SEO_BY_PATH: Record<string, { title: string; description: string }> = {
         title: 'Excel Tools | Convert, Merge, Split, and Unpivot | Weave',
         description: 'Convert, merge, split, unpivot, and reshape Excel and CSV files privately in your browser.',
     },
+    '/developer-tools': {
+        title: 'Developer Tools | JSON, UUID, Timestamps, Diff, and SHA-256 | Weave',
+        description: 'Format JSON, generate UUIDs and SHA-256 hashes, compare text, and convert Unix timestamps privately in your browser.',
+    },
+    '/developer-tools/json-formatter': {
+        title: 'JSON Formatter & Validator | Weave',
+        description: 'Format, minify, and validate JSON privately in your browser.',
+    },
+    '/developer-tools/uuid-generator': {
+        title: 'UUID Generator | Weave',
+        description: 'Generate random version 4 UUIDs locally in your browser.',
+    },
+    '/developer-tools/unix-timestamp-converter': {
+        title: 'Unix Timestamp Converter | Weave',
+        description: 'Convert Unix timestamps to local time and UTC, or date and time to Unix seconds.',
+    },
+    '/developer-tools/text-json-diff': {
+        title: 'Text and JSON Diff | Weave',
+        description: 'Compare text or JSON snippets line by line in your browser.',
+    },
+    '/developer-tools/sha256-hash-generator': {
+        title: 'SHA-256 Hash Generator | Weave',
+        description: 'Generate SHA-256 hashes from text locally in your browser.',
+    },
     '/excel-tools/converter': {
         title: 'Convert Excel to JSON, CSV, XLS, or XLSX | Weave',
         description: 'Convert XLSX, XLS, and CSV spreadsheets to Excel formats, CSV, or JSON without uploading files.',

@@ -1,4 +1,4 @@
-import { ArrowDownUp, FileJson, FileSpreadsheet, FileStack, Files, ImageIcon, Images, PenLine, Scissors, Shrink, Wand2 } from 'lucide-react'
+import { ArrowDownUp, Braces, Clock3, FileJson, FileSpreadsheet, FileStack, Files, Hash, ImageIcon, Images, PenLine, Scissors, Shrink, Wand2, Workflow } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PrimaryButton } from '../components/PrimaryButton'
 import { SecondaryButton } from '../components/SecondaryButton'
@@ -19,6 +19,11 @@ const ICONS: Record<string, React.ReactNode> = {
     'split-excel': <Scissors size={18} aria-hidden="true" />,
     'unpivot-excel': <ArrowDownUp size={18} aria-hidden="true" />,
     'json-to-csv': <FileJson size={18} aria-hidden="true" />,
+    'json-formatter': <Braces size={18} aria-hidden="true" />,
+    'uuid-generator': <Workflow size={18} aria-hidden="true" />,
+    'unix-timestamp-converter': <Clock3 size={18} aria-hidden="true" />,
+    'text-json-diff': <ArrowDownUp size={18} aria-hidden="true" />,
+    'sha256-hash-generator': <Hash size={18} aria-hidden="true" />,
 }
 
 export function Home() {
@@ -41,6 +46,9 @@ export function Home() {
                     </Link>
                     <Link to="/excel-tools">
                         <SecondaryButton>Explore Excel Tools</SecondaryButton>
+                    </Link>
+                    <Link to="/developer-tools">
+                        <SecondaryButton>Explore Developer Tools</SecondaryButton>
                     </Link>
                 </div>
             </section>

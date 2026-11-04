@@ -23,7 +23,15 @@ A lightweight, privacy-friendly file utility web app for reshaping and transform
 - **Smart Merge Excel:** Merge spreadsheets by matching column headers instead of position, so files with reordered or mismatched columns still align correctly. New headers are added automatically, and a "Source File" column tracks which file each row came from.
 - **Split Excel:** Turn every visible sheet in a workbook into its own file, skipping hidden sheets.
 - **Unpivot Excel:** Turn selected spreadsheet columns into identifier, attribute, and value rows, with an option to skip null values.
-- **JSON to CSV:** Convert JSON records into a CSV file, with a 30 MB limit.
+- **JSON to CSV:** Convert JSON records into a CSV file, with a 300 MB limit.
+
+### Developer Tools
+
+- **JSON Formatter & Validator:** Validate JSON and format or minify it.
+- **UUID Generator:** Generate random UUIDs in your browser.
+- **Unix Timestamp Converter:** Convert Unix timestamps to local time and UTC, or convert date and time values to Unix timestamps using local or UTC interpretation.
+- **Text / JSON Diff:** Compare text or JSON snippets line by line.
+- **SHA-256 Hash Generator:** Hash text locally using the Web Crypto API.
 
 All processing happens client-side using the Canvas API, [pdf-lib](https://github.com/Hopding/pdf-lib), [pdf.js](https://github.com/mozilla/pdf.js), and [SheetJS](https://github.com/SheetJS/sheetjs), so your files never leave your device.
 

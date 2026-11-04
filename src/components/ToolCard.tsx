@@ -7,13 +7,14 @@ interface Props {
     name: string
     description: string
     to: string
-    category?: 'image' | 'pdf' | 'excel'
+    category?: 'image' | 'pdf' | 'excel' | 'developer'
 }
 
 const logoColorClasses = {
     image: 'border-blue-200 text-blue-600 dark:border-blue-800 dark:text-blue-400',
     pdf: 'border-red-200 text-red-600 dark:border-red-800 dark:text-red-400',
     excel: 'border-green-200 text-green-600 dark:border-green-800 dark:text-green-400',
+    developer: 'border-violet-200 text-violet-600 dark:border-violet-800 dark:text-violet-400',
 }
 
 export function ToolCard({ icon, name, description, to, category }: Props) {

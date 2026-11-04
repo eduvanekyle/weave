@@ -2,7 +2,7 @@ export interface ToolMeta {
     slug: string
     name: string
     description: string
-    category: 'image' | 'pdf' | 'excel'
+    category: 'image' | 'pdf' | 'excel' | 'developer'
     path: string
 }
 
@@ -97,5 +97,40 @@ export const tools: ToolMeta[] = [
         description: 'Convert JSON records into a CSV file.',
         category: 'excel',
         path: '/excel-tools/json-to-csv',
+    },
+    {
+        slug: 'json-formatter',
+        name: 'JSON Formatter & Validator',
+        description: 'Format JSON and check it for syntax errors.',
+        category: 'developer',
+        path: '/developer-tools/json-formatter',
+    },
+    {
+        slug: 'uuid-generator',
+        name: 'UUID Generator',
+        description: 'Generate a random UUID in your browser.',
+        category: 'developer',
+        path: '/developer-tools/uuid-generator',
+    },
+    {
+        slug: 'unix-timestamp-converter',
+        name: 'Unix Timestamp Converter',
+        description: 'Convert between Unix time, local time, and UTC.',
+        category: 'developer',
+        path: '/developer-tools/unix-timestamp-converter',
+    },
+    {
+        slug: 'text-json-diff',
+        name: 'Text / JSON Diff',
+        description: 'Compare two text or JSON snippets line by line.',
+        category: 'developer',
+        path: '/developer-tools/text-json-diff',
+    },
+    {
+        slug: 'sha256-hash-generator',
+        name: 'SHA-256 Hash Generator',
+        description: 'Create a SHA-256 hash from text locally.',
+        category: 'developer',
+        path: '/developer-tools/sha256-hash-generator',
     },
 ]

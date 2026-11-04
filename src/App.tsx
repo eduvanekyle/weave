@@ -3,6 +3,12 @@ import { AppHeader } from './components/AppHeader'
 import { Seo } from './components/Seo'
 import { ExcelConverter } from './pages/ExcelConverter'
 import { ExcelToolsOverview } from './pages/ExcelToolsOverview'
+import { DeveloperTools } from './pages/DeveloperTools'
+import { JsonFormatter } from './pages/JsonFormatter'
+import { UuidGenerator } from './pages/UuidGenerator'
+import { UnixTimestampConverter } from './pages/UnixTimestampConverter'
+import { TextJsonDiff } from './pages/TextJsonDiff'
+import { Sha256HashGenerator } from './pages/Sha256HashGenerator'
 import { Home } from './pages/Home'
 import { ImageCompressor } from './pages/ImageCompressor'
 import { ImageConverter } from './pages/ImageConverter'
@@ -38,6 +44,12 @@ function App() {
           <Route path="/pdf-tools/sign" element={<SignPdf />} />
           <Route path="/pdf-tools/split" element={<SplitPdf />} />
           <Route path="/excel-tools" element={<ExcelToolsOverview />} />
+          <Route path="/developer-tools" element={<DeveloperTools />} />
+          <Route path="/developer-tools/json-formatter" element={<JsonFormatter />} />
+          <Route path="/developer-tools/uuid-generator" element={<UuidGenerator />} />
+          <Route path="/developer-tools/unix-timestamp-converter" element={<UnixTimestampConverter />} />
+          <Route path="/developer-tools/text-json-diff" element={<TextJsonDiff />} />
+          <Route path="/developer-tools/sha256-hash-generator" element={<Sha256HashGenerator />} />
           <Route path="/excel-tools/converter" element={<ExcelConverter />} />
           <Route path="/excel-tools/merge" element={<MergeExcel />} />
           <Route path="/excel-tools/smart-merge" element={<SmartMergeExcel />} />
@@ -52,5 +64,3 @@ function App() {
 }
 
 export default App
-
-
